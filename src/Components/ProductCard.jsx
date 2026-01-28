@@ -1,12 +1,15 @@
 import { memo } from 'react';
+import ProductsContext from '../Contexts/ProductsContext';
+import { Heart } from 'lucide-react';
 
-const ProductCard = ({price, title, location}) => {
+const ProductCard = ({price, title, date}) => {
   return (
     <div>
-      <img src="" alt="" />
-      <p>{price}</p>
-      <p>{title}</p>
-      <p>{location}</p>
+        <div><img src="" alt="" /></div>
+        <div>{price}</div>
+        <div>{title}</div>
+        <div>{date}</div>
+        <div><Heart/></div>
     </div>
   );
 };
