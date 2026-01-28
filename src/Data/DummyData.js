@@ -14,7 +14,7 @@ export const products = [
     title: "iPhone 15 Pro - 256GB",
     price: 115000,
     category: "Electronics",
-    image: "https://images.unsplash.com/photo-1695048133142-1a20484d256e?w=500",
+    image: "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?w=500",
     location: "Mumbai, Maharashtra",
     date: "1 day ago",
     isFavorite: true
