@@ -1,12 +1,12 @@
 import { memo } from 'react';
 import Header from './Header';
-import Catogories from './Catogories';
+import CatogoryBar from './CatogoryBar';
 
 const Layout = () => {
   return (
     <div>
       <Header/>
-      <Catogories/>
+      <CatogoryBar/>
     </div>
   );
 };
