@@ -1,9 +1,12 @@
 import { memo } from 'react';
+import Header from './Header';
+import Catogories from './Catogories';
 
 const Layout = () => {
   return (
     <div>
-      <h2>Layout</h2>
+      <Header/>
+      <Catogories/>
     </div>
   );
 };
